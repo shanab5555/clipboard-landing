@@ -273,7 +273,7 @@ footer img{
 
     width: 60px;
     height: 60px;
-    margin-left: 21%;
+    margin-left: 20%;
     margin-top: 8%;
 }
 
@@ -332,7 +332,7 @@ footer .icons a:hover{
 /* End Footer css */
 
 /* Responsive Mobile */
-@media only screen and (max-width:450px){
+@media only screen and (max-width:426px){
     
     header{
         
@@ -373,14 +373,13 @@ footer .icons a:hover{
     header button{
 
         padding: 3% 22%;
-        margin: 0% 10% 5%;
-
+        margin: 0% 10.5% 5%;
     }
 
     section{
 
         margin-top: -10%;
-        height: 1070px;
+        height: 1150px;
 
     }
     
@@ -427,7 +426,7 @@ footer .icons a:hover{
     main{
 
         margin-top: 10%;
-        height: 450px;
+        height: 520px;
 
     }
 
@@ -443,9 +442,9 @@ footer .icons a:hover{
 
     }
 
-    article p:nth-child(1){
+    article p{
 
-        margin: 8% 7% 28%;
+        margin: -4.5% 0% 30%;
         font-size: medium;
 
     }
@@ -508,6 +507,12 @@ footer .icons a:hover{
 
     }
 
+    footer img{
+
+        margin-left: 27%;
+
+    }
+
     footer .header{
 
         margin: 20% 35% 10%;
@@ -537,8 +542,8 @@ footer .icons a:hover{
 
     footer .icons{
 
-        width: 100%;
-        margin-left: 4%;
+        width: 90%;
+        margin-left: 8%;
         margin-top: 15%;
 
     }
