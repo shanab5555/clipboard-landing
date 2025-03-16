@@ -1,0 +1,546 @@
+/* start css body */
+body{
+
+    margin: 0%;
+    padding: 0%;
+    opacity: 1;
+
+}
+
+/* start Header css  */
+header{
+
+    background-image: url(../Assign/images/bg-header-desktop.png);
+    height: 750px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header img{
+
+    width: 130px;
+    height: 130px;
+    margin-top: -5%;
+}
+
+header h1{
+
+    margin-top: 4%;
+    font-weight: bolder;
+
+}
+
+header p{
+
+    color: hsl(205.71deg 5.26% 73.92%);
+    width: 45%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1%;
+
+}
+
+header div{
+
+    margin-top: 2%;
+    width: 40%;
+    margin-left: 3%;
+}
+/* -------------------------------------------- */
+/* This attribute Button aside and Header */
+/* -------------------------------------------- */
+header button , aside button{
+
+    padding: 3% 10%;
+    border-radius: 30px;
+    background-color: hsl(170.68deg 65.49% 44.31%);
+    margin-left: 2%;
+    color: white;
+    border: hsl(169.61deg 66.49% 37.45%) solid 2px;
+
+}
+
+header button:nth-child(2), aside .col-md-6:nth-child(2) button {
+
+    background-color: hsl(232.78deg 100% 69.02%);    
+    border: hsl(233.53deg 44.35% 54.9%) solid 2px;
+}
+
+header button:hover , aside button:hover{
+
+    opacity: .8;
+
+}
+/* End header css  */
+
+/* start section1 css */
+section{
+
+    height: 800px;
+    
+}
+
+section .header{
+
+    text-align: center;
+
+}
+
+section .header h1{
+
+    font-size: 32px;
+    font-weight: bolder;
+
+}
+
+section .header p{
+
+    margin: 0% 21% 6%;
+    color: hsl(190deg 4.69% 74.9%);
+    word-spacing: 3px;
+
+}
+
+section .section {
+
+    margin-top: 7%;
+    margin-left: 10%;
+    
+}
+
+section .section:nth-child(1){
+    
+    margin-top: 10%;
+    
+}
+
+section img{
+    
+    width: 100%;
+    margin-left: -3%;
+
+}
+
+section .section h2{
+
+    font-size: 23px;
+    font-weight: 600;
+    
+}
+
+section .section p{
+
+    color: hsl(205.71deg 5.51% 75.1%);
+    margin: 2% 41% 0% 0%;
+
+}
+/* End section1 css */
+
+/* start section2 css */
+main{
+
+    text-align: center;
+
+}
+
+main h1{
+
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 2%;
+
+}
+
+main p{
+    font-size: 18px;
+    margin: 0% 19%;
+    color: hsl(205.71deg 5.51% 75.1%);
+
+}
+
+main img{
+
+    width: 80%;
+    margin: 5% 0% 0%;
+
+}
+/* End section2 css */
+
+/* start section3 css */
+article{
+    
+    /* width: 100%; */
+    text-align: center;
+    
+}
+
+article h2{
+    
+    margin: 6% 0% 1%;
+    font-weight: 600;    
+    
+}
+
+article p{
+    
+    color: hsl(205.71deg 5.51% 75.1%);
+    font-size: 18px;
+    margin: 1.5% 0% 6%;
+    
+}
+
+article .section-one{
+    
+    margin: 5% 1% 3% 5.5%;
+    
+}
+
+article .section-one h1{
+    
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 17%;
+    
+}
+
+article .section-one p{
+    
+    margin: 6% -14%;
+    font-size: medium;
+    
+}
+
+article .section-one:nth-child(1) h1{
+    
+    margin-top: 15%;
+    
+}
+
+article .section-two{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 9% 1% 12% 0%;
+
+}
+
+article .section-two img{
+
+    width: 85%;
+
+}
+/* End Section3 css */
+
+/* start section4 css */
+aside{
+
+    height: 500px;
+    text-align: center;   
+
+}
+
+aside h1{
+
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 5%;
+
+}
+
+aside p{
+
+    margin: 2% 23% 4%;
+    color: hsl(205.71deg 5.51% 75.1%);
+
+}
+/* End section4 css */
+
+/* Start Footer css */
+footer{
+
+    background-color: hsl(220deg 17.65% 96.67%);
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+}
+
+footer img{
+
+    width: 60px;
+    height: 60px;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+
+footer a{
+
+    color:hsl(217.5deg 4.44% 35.29%);
+
+}
+
+footer .section{
+
+    display: flex;
+
+}
+
+footer .a{
+
+    text-align: start;
+    margin: 4% 19% 0% -7%;
+
+}
+
+footer .a a{
+
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+footer .a a:hover{
+
+    color: hsl(171.89deg 64.91% 44.71%);
+
+}
+
+footer .icons{
+
+    width: 20%  ;
+    margin: auto;
+    margin-top: 5%;
+}
+
+footer .shanab{
+
+    font-size: 27px;
+    margin-right: 10%;
+
+}
+
+footer .icons a:hover{
+
+    color: hsl(171.89deg 64.91% 44.71%);
+
+}
+/* End Footer css */
+
+/* Responsive Mobile */
+@media only screen and (max-width:390px){
+    
+    header{
+        
+        background-image: url(../Assign/images/bg-header-mobile.png);
+        height: 844px;
+        
+    }
+
+    header img{
+
+        width: 100px;
+        height: 100px;
+        margin-top: 0%;
+        margin-bottom: 4%;
+
+    }
+    
+    header h1{
+
+        width: 70%;
+        text-align: center;
+
+    }
+
+    header p{
+
+        width: 72%;
+        font-size: 15px;
+    
+    }
+
+    header div{
+        
+        width: 100%;
+
+    }
+
+    header button{
+
+        padding: 3% 22%;
+        margin: 0% 10% 5%;
+
+    }
+
+    section{
+
+        margin-top: -10%;
+        height: 1070px;
+
+    }
+    
+    section .header p{
+
+        margin: 6% 8% 15%;
+        
+    }
+
+    section img{
+
+        margin: 0% 5.5%;
+        width: 90%;
+        display: flex;
+
+    }
+
+    section .section:nth-child(1){
+
+        margin-top: 20%;
+
+    }
+
+    section .section{
+    
+        margin-top: 12%;
+        text-align: center;
+        margin-left:auto ;
+
+    }
+
+    section .section h2{
+
+        text-align: center;
+
+    }
+
+    section .section p{
+
+        margin: 0% 7%;
+
+    }
+
+    main{
+
+        margin-top: 10%;
+        height: 450px;
+
+    }
+
+    main p{
+
+        margin: 5% 3% 11%;
+
+    }
+
+    article h2{
+
+        margin: 16% 6% 8%;
+
+    }
+
+    article p:nth-child(1){
+
+        margin: 8% 7% 28%;
+        font-size: medium;
+
+    }
+
+    article .section-one {
+    
+        margin: 3% 0% 9% 0%;
+    
+    }
+
+    article .section-one p{
+
+        margin: 4% 8%;
+
+    }
+
+    article .section-two{
+
+        margin-bottom: 36%;
+
+    }
+
+    article .section-two img {
+        width: 38%;
+        margin-top: 22%;
+    }
+
+    aside{
+        margin-top: 30%;
+        height: 550px;
+
+    }
+
+    aside h1{
+
+        font-size: 27px;
+        font-weight: 600;
+        margin: 5% 10% 7%;
+
+    }
+
+    aside p{
+
+        margin: 0% 10% 12%
+
+    }
+
+    aside button{
+
+        margin-bottom: 5%;
+        padding: 4% 25%;
+
+    }
+
+    footer{
+
+        height: 570px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    footer .header{
+
+        margin: 20% 35% 10%;
+
+    }
+
+    footer .section{
+
+        display: block;
+        margin: auto;
+        margin-left: 30%;
+
+    }
+
+    footer .section .a{
+
+        text-align: center;
+        margin-top: 15%;
+    
+    }
+
+    footer .a a{
+
+        margin-top: -5%;
+
+    }
+
+    footer .icons{
+
+        width: 100%;
+        margin-left: 4%;
+        margin-top: 15%;
+
+    }
+
+}
